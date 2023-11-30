@@ -9,6 +9,7 @@ Write a function named raisedToTheThird that takes in an array of numbers and re
 ------------------------------------------------------------------------------------------------ */
 
 const raisedToTheThird = (arr) => {
+
   const thirdPower = [];
 
   arr.forEach((num) => {
@@ -209,7 +210,7 @@ Run your tests from the console: jest challenges-07.test.js
 ------------------------------------------------------------------------------------------------ */
 
 describe('Testing challenge 1', () => {
-  test('It should return a new array of numbers raised to the thrid power', () => {
+  test('It should return a new array of numbers raised to the third power', () => {
     expect(raisedToTheThird([2, 4, 5, -7, 0])).toStrictEqual([8, 64, 125, -343, 0]);
   });
 });
