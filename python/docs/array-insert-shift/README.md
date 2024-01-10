@@ -2,7 +2,7 @@
 Write a function called insertShiftArray which takes in an array and a value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
 
 ## Whiteboard Process
-![whiteBoard2](./whiteboard2.png)
+![whiteboard](./whiteboard2.png)
 
 ## Approach & Efficiency
 Calculating the middle index of the array.
